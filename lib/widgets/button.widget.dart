@@ -24,7 +24,7 @@ class Button extends StatelessWidget {
           color: Theme.of(context).primaryColor,
         ),
       ),
-      child: FlatButton(
+      child: ElevatedButton(
         onPressed: callback,
         child: Text(
           label,
